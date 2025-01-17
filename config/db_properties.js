@@ -1,8 +1,8 @@
 module.exports = {
-  host: "sql12.freemysqlhosting.net",
-  user: "sql12737035",
-  password: "yas9pJTwac",  // Updated password
-  dbName: "sql12737035",   // This was already correct
+  host: "sql.freedb.tech",
+  user: "freedb_omega",
+  password: "Qa5H9r@qzc*pkNR",  // Updated password
+  dbName: "freedb_digihal",   // This was already correct
   dialect: "mysql",
   port: 3306,  // Added the port based on your credentials
   pool: {
