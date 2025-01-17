@@ -1,5 +1,5 @@
 var dbProps = require("./db_properties");
-var mysql = require('mysql2');
+var mysql = require("mysql");
 
 module.exports = {
     getConnection: () =>{
