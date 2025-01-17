@@ -1,10 +1,11 @@
 module.exports = {
   host: "sql.freedb.tech",
   user: "freedb_omega",
-  password: "Qa5H9r@qzc*pkNR",  // Updated password
-  dbName: "freedb_digihal",   // This was already correct
+  password: "Qa5H9r@qzc*pkNR",
+  database: "freedb_digihal",
   dialect: "mysql",
-  port: 3306,  // Added the port based on your credentials
+  dialectModule: mysql, // Use mysql2 for compatibility
+  port: 3306,
   pool: {
     max: 5,
     min: 0,
